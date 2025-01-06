@@ -70,3 +70,7 @@ header{
 #chapter-29 [epub|type~="z3998:diary"]{
 	display: initial;
 }
+
+.telegram{
+	font-variant: all-small-caps;
+}
