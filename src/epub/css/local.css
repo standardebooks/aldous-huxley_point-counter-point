@@ -73,8 +73,13 @@ header{
 }
 
 /* Remove indentation on diary entries that take up entire sections */
-#chapter-22 [epub|type~="z3998:diary"],
-#chapter-26 [epub|type~="z3998:diary"],
-#chapter-29 [epub|type~="z3998:diary"]{
-	display: initial;
+#chapter-22 [epub|type~="z3998:diary-entry"],
+#chapter-26 [epub|type~="z3998:diary-entry"],
+#chapter-29 [epub|type~="z3998:diary-entry"]{
+	margin: 0;
+}
+
+#chapter-23 [epub|type~="z3998:letter"] header,
+#chapter-35 [epub|type~="z3998:letter"] header{
+	font-variant: normal;
 }
